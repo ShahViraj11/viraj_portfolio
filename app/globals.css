@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* 
+html,
+body {
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --background: #05020a;
+    --accent: #262626;
+    --grid-line-color: #838383;
+    --foreground: #ffffff;
+    --text-primary: #ffffff;
+    --text-secondary: #c5c5c5;
+    --text-inverse: #000000;
+    --nav-shadow: box-shadow(0 0 10px #fff);
+}
