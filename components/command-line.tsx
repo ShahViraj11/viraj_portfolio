@@ -60,7 +60,7 @@ export const CLI = () => {
 		[initializeCommand]: {
 			action: (args: string[]) => {
 				setInitialize(true);
-				cout('Welcome to Nitish Maindoliya\'s portfolio');
+				cout('Welcome to Viraj Shah\'s portfolio');
 				cout('Type help to list all commands');
 			},
 			description: 'Initialize the portfolio',
@@ -109,7 +109,7 @@ export const CLI = () => {
 		// enter key
 		if (e.key === 'Enter') {
 			// add to output
-			cout(`nitish@nitish:${dir}$ ${command}`);
+			cout(`<viraj>:~$:${dir}$ ${command}`);
 
 			// check if command is empty
 			if (!command) return;
@@ -301,7 +301,7 @@ export const CLI = () => {
 				{/* input */}
 				<div className='flex pl-2'>
 					<span className=''>
-						{`nitish@nitish:${dir}$`}
+						{`<viraj>:~$${dir}$`}
 					</span>
 					<input
 						className='w-full bg-transparent borer-none outline-none pl-2'

@@ -190,7 +190,7 @@ export const ContactForm = () => {
         </div>
       </div>
 
-      <div className="bg-[--foreground] w-full h-[15%]">Hate forms? Connect at <br /> <a href="mailto:nitish@nitish.info">nitish@nitish.info</a></div>
+      <div className="bg-[--foreground] w-full h-[15%]">Hate forms? Connect at <br /> <a href="mailto:shahvira@msu.edu">shahvira@msu.edu</a></div>
     </div>
   )
 };
