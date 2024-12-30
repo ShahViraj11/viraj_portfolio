@@ -81,6 +81,7 @@ export const Project = ({
 			lenis?.start();
 		}
 	}, [expanded, scrollY, lenis]);
+	
 
 	return (
 		<>

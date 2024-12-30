@@ -9,8 +9,8 @@ import { InitProvider } from '@/components/context/init-context';
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Nitish Maindoliya",
-  description: "Portfolio of Nitish Maindoliya",
+  title: "Viraj Shah",
+  description: "Portfolio of Viraj Shah",
   icons: [
     {
       media: '(prefers-color-scheme: light)',

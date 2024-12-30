@@ -2,6 +2,8 @@ import { motion, useMotionValueEvent, useScroll, useTransform } from 'framer-mot
 import { RefObject, useEffect, useRef, useState } from 'react';
 import { Projects } from '@/components/sections/projects';
 import { ParallaxText } from '@/components/parallax-text';
+import { Certifications } from "./certifications";
+
 
 
 import { cn } from '@/lib/utils';
