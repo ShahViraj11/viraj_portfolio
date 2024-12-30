@@ -19,7 +19,7 @@ export const About = () => {
   const timeline: TimelineObject[] = useMemo(() => ([  
     {
       type: 'image',
-      content: '/images/nitish.webp',
+      content: '',
       config: {
         background: 'white',
         transition: 'converge',
@@ -80,8 +80,8 @@ export const About = () => {
 
         <div className='w-3/5 h-full text-[--text-primary] flex flex-col justify-center px-10 max-lg:w-full'>
           <div>
-            <h1 className={cn('text-[2.5em] font-bold', cascadia.className)}>I&apos;m Nitish Maindoliya</h1>
-            <h2 className={cn('text-[1.5em] italic font-extralight',)}>Innovating solutions, one project a time</h2>
+            <h1 className={cn('text-[2.5em] font-bold', cascadia.className)}>I&apos;m Viraj Shah</h1>
+            <h2 className={cn('text-[1.5em] italic font-extralight',)}>Innovating at the crossroads of AI and connectivity.</h2>
           </div>
           {
             fileSystem.about.description.map((desc, index) => (
@@ -112,7 +112,7 @@ export const About = () => {
             </Button>
             <Button
               onClick={() => {
-                window.open('https://www.linkedin.com/in/nmaindoliya/', '_blank');
+                window.open('https://www.linkedin.com/in/viraj-shah-88b58a180/', '_blank');
               }}
               hoverStyle={{
                 background: '#0a66c2',
@@ -122,7 +122,7 @@ export const About = () => {
             </Button>
             <Button
               onClick={() => {
-                window.open('https://github.com/ze-ntsh', '_blank');
+                window.open('https://github.com/ShahViraj11', '_blank');
               }}
               hoverStyle={{
                 background: '#24292e',

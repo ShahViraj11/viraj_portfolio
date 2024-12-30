@@ -24,8 +24,8 @@ type FileSystem = {
 export const fileSystem: FileSystem = {
   about: {
     description: [
-      "I'm a full-stack developer passionate about building both visually appealing and functional applications. I have experience with TypeScript, Next.js, and C++, along with cloud platforms such as GCP and AWS, which has allowed me to develop and deploy scalable solutions.",
-      "Currently, I'm focusing on leveraging machine learning and artificial intelligence, particularly exploring ways to run resource-intensive Brain Computer Interface ML models efficiently. I aim is to improve speed and efficiency, making these models run smoothly in lightweight environments without comprimising performance.",
+      "I'm a backend developer and aspiring data scientist with a passion for creating impactful and user-centric applications. My experience spans across technologies like React, TypeScript, and Azure, as well as backend development with Python and C, enabling me to build robust and scalable solutions.",
+      "Currently, I'm focusing on the intersection of artificial intelligence and cloud technologies, with a keen interest in exploring graph neural networks, pervasive sensing, and Internet of Things (IoT) applications. My goal is to contribute to innovative solutions that enhance connectivity, improve efficiency, and empower communities.",
     ]
   },
   projects: {

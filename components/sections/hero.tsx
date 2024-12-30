@@ -124,7 +124,7 @@ export const HeroSection = () => {
 								fontSize: fontSizeTransform,
 								width: navActive ? '60%' : '100%',
 							}}>
-								nitish.
+								viraj.
 								{/* <Typewriter trigger={navActive}>
 									maindoliya.
 								</Typewriter> */}

@@ -109,7 +109,7 @@ export const CLI = () => {
 		// enter key
 		if (e.key === 'Enter') {
 			// add to output
-			cout(`<viraj>:~$:${dir}$ ${command}`);
+			cout(`<viraj>:${dir}$ ${command}`);
 
 			// check if command is empty
 			if (!command) return;
@@ -301,7 +301,7 @@ export const CLI = () => {
 				{/* input */}
 				<div className='flex pl-2'>
 					<span className=''>
-						{`<viraj>:~$${dir}$`}
+						{`<viraj>:${dir}$`}
 					</span>
 					<input
 						className='w-full bg-transparent borer-none outline-none pl-2'
